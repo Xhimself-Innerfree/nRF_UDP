@@ -1,0 +1,4 @@
+osource "D:/nRF_Projects/Cli_UDP/boards/shields/*/Kconfig.shield"
+osource "D:/nRF_Projects/Cli_UDP_RCV/boards/shields/*/Kconfig.shield"
+osource "D:/nRF_Projects/Cli_UART_2_UDP_RCP/boards/shields/*/Kconfig.shield"
+osource "C:/ncs/v3.0.0/nrf/boards/shields/*/Kconfig.shield"

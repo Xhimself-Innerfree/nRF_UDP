@@ -1,0 +1,25 @@
+cmake:
+  application:
+    source-dir: C:/ncs/v3.0.0/zephyr/share/sysbuild
+  board:
+    name: nrf5340dk
+    path:
+     - C:/ncs/v3.0.0/zephyr/boards/nordic/nrf5340dk
+    qualifiers: nrf5340/cpuapp/ns
+    revision: 
+  images:
+   - name: l5_e1_sol
+     source-dir: D:/nRF_Projects/l5_e1_sol
+     type: MAIN
+  kconfig:
+    files:
+     - D:/nRF_Projects/l5_e1_sol/build/_sysbuild/empty.conf
+     - D:/nRF_Projects/l5_e1_sol/build/_sysbuild/empty.conf
+    user-files:
+     - D:/nRF_Projects/l5_e1_sol/build/_sysbuild/empty.conf
+  sysbuild: true
+version: 0.1.0
+west:
+  command: C:\ncs\toolchains\b620d30767\opt\bin\Scripts\west build --build-dir d:/nRF_Projects/l5_e1_sol/build d:/nRF_Projects/l5_e1_sol --pristine --board nrf5340dk/nrf5340/cpuapp/ns --sysbuild -- -DBOARD_ROOT=d:/nrf_projects/cli_udp;d:/nrf_projects/cli_udp_rcv;d:/nrf_projects/cli_uart_2_udp_rcp
+  topdir: c:\ncs\v3.0.0
+  version: 1.2.0

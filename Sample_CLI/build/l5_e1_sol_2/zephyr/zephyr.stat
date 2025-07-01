@@ -1,0 +1,90 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x42ca5
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          2817468 (bytes into file)
+  Flags:                             0x5000400, Version5 EABI, hard-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         5
+  Size of section headers:           40 (bytes)
+  Number of section headers:         46
+  Section header string table index: 45
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] rom_start         PROGBITS        00040000 0000e0 000154 00 WAX  0   0  4
+  [ 2] text              PROGBITS        00040158 000238 0356e0 00  AX  0   0  8
+  [ 3] .ARM.exidx        ARM_EXIDX       00075838 035918 000008 00  AL  2   0  4
+  [ 4] initlevel         PROGBITS        00075840 035920 0000c8 00   A  0   0  4
+  [ 5] device_area       PROGBITS        00075908 0359e8 0000c8 00   A  0   0  4
+  [ 6] sw_isr_table      PROGBITS        000759d0 035ab0 000228 00  WA  0   0  4
+  [ 7] _static_thre[...] PROGBITS        00075bf8 035cd8 000030 00  WA  0   0  8
+  [ 8] entropy_driv[...] PROGBITS        00075c28 035d08 000008 00   A  0   0  4
+  [ 9] flash_driver[...] PROGBITS        00075c30 035d10 000030 00   A  0   0  4
+  [10] gpio_driver_[...] PROGBITS        00075c60 035d40 000024 00   A  0   0  4
+  [11] mbox_driver_[...] PROGBITS        00075c84 035d64 000014 00   A  0   0  4
+  [12] clock_contro[...] PROGBITS        00075c98 035d78 00001c 00   A  0   0  4
+  [13] uart_driver_[...] PROGBITS        00075cb4 035d94 000024 00   A  0   0  4
+  [14] ctors             PROGBITS        00075cd8 035db8 00000c 00  WA  0   0  1
+  [15] init_array        PROGBITS        00075ce4 0371c4 000000 00   W  0   0  1
+  [16] rodata            PROGBITS        00075cf0 035dd0 000f38 00   A  0   0 16
+  [17] .ramfunc          PROGBITS        20030000 0371c4 000000 00   W  0   0  1
+  [18] datas             PROGBITS        20030000 036d08 00020c 00  WA  0   0  4
+  [19] device_states     PROGBITS        2003020c 036f14 000014 00  WA  0   0  1
+  [20] k_timer_area      PROGBITS        20030220 036f28 000038 00  WA  0   0  8
+  [21] k_mem_slab_area   PROGBITS        20030258 036f60 000040 00  WA  0   0  4
+  [22] k_heap_area       PROGBITS        20030298 036fa0 000018 00  WA  0   0  4
+  [23] k_mutex_area      PROGBITS        200302b0 036fb8 0000a0 00  WA  0   0  4
+  [24] k_sem_area        PROGBITS        20030350 037058 000060 00  WA  0   0  4
+  [25] k_fifo_area       PROGBITS        200303b0 0370b8 000038 00  WA  0   0  4
+  [26] net_buf_pool_area PROGBITS        200303e8 0370f0 000060 00  WA  0   0  4
+  [27] net_if_area       PROGBITS        20030448 037150 000040 00  WA  0   0  4
+  [28] net_if_dev_area   PROGBITS        20030488 037190 00001c 00  WA  0   0  4
+  [29] net_l2_area       PROGBITS        200304a4 0371ac 000014 00   A  0   0  4
+  [30] .comment          PROGBITS        00000000 0371c4 000020 01  MS  0   0  1
+  [31] .debug_aranges    PROGBITS        00000000 0371e8 004330 00      0   0  8
+  [32] .debug_info       PROGBITS        00000000 03b518 0ef360 00      0   0  1
+  [33] .debug_abbrev     PROGBITS        00000000 12a878 021380 00      0   0  1
+  [34] .debug_line       PROGBITS        00000000 14bbf8 061c49 00      0   0  1
+  [35] .debug_frame      PROGBITS        00000000 1ad844 00c4e0 00      0   0  4
+  [36] .debug_str        PROGBITS        00000000 1b9d24 025691 01  MS  0   0  1
+  [37] .debug_loc        PROGBITS        00000000 1df3b5 06f5ea 00      0   0  1
+  [38] .debug_ranges     PROGBITS        00000000 24e9a0 00fd10 00      0   0  8
+  [39] .ARM.attributes   ARM_ATTRIBUTES  00000000 25e6b0 00003a 00      0   0  1
+  [40] .last_section     PROGBITS        000770e0 0371c0 000004 00  WA  0   0  4
+  [41] bss               NOBITS          200304b8 0371c8 00b0d2 00  WA  0   0  8
+  [42] noinit            NOBITS          2003b590 0371c8 006360 00  WA  0   0  8
+  [43] .symtab           SYMTAB          00000000 25e6ec 025ef0 10     44 5668  4
+  [44] .strtab           STRTAB          00000000 2845dc 02b58d 00      0   0  1
+  [45] .shstrtab         STRTAB          00000000 2afb69 000250 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  EXIDX          0x035918 0x00075838 0x00075838 0x00008 0x00008 R   0x4
+  LOAD           0x0000e0 0x00040000 0x00040000 0x36c28 0x36c28 RWE 0x10
+  LOAD           0x036d08 0x20030000 0x00076c28 0x004b8 0x004b8 RW  0x8
+  LOAD           0x0371c0 0x000770e0 0x000770e0 0x00004 0x00004 RW  0x4
+  LOAD           0x000000 0x200304b8 0x200304b8 0x00000 0x11438 RW  0x8
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .ARM.exidx 
+   01     rom_start text .ARM.exidx initlevel device_area sw_isr_table _static_thread_data_area entropy_driver_api_area flash_driver_api_area gpio_driver_api_area mbox_driver_api_area clock_control_driver_api_area uart_driver_api_area ctors rodata 
+   02     datas device_states k_timer_area k_mem_slab_area k_heap_area k_mutex_area k_sem_area k_fifo_area net_buf_pool_area net_if_area net_if_dev_area net_l2_area 
+   03     .last_section 
+   04     bss noinit 

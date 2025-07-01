@@ -1,0 +1,12 @@
+################### OPENTHREAD REPORT ###################
++ Target device: nrf5340
++ Thread version: v1.4
++ OpenThread library feature set: Full Thread Device (FTD)
++ Thread device type: Full End Device (FED)
++ OpenThread Library: openthread/lib/nrf5340/hard-float/v1.4/ftd
++ OpenThread NCS revision: ncs-thread-reference-20250402-dirty
++ OpenThread NCS SHA: 0e2666713
++ NCS revision: v3.0.0-rc2-35-g3bfc46578e-dirty
++ NCS SHA: 3bfc46578e
++ No differences in the used Thread library in comparison to the NCS v3.0.0 release.
+###################        END        ###################

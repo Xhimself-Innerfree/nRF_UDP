@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/CMakeFiles/l5_e1_sol_2"
+		},
+		{
+			"file" : "D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/CMakeFiles/l5_e1_sol_2.rule"
+		},
+		{
+			"file" : "D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/CMakeFiles/l5_e1_sol_2-complete.rule"
+		},
+		{
+			"file" : "D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-build.rule"
+		},
+		{
+			"file" : "D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-configure.rule"
+		},
+		{
+			"file" : "D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-download.rule"
+		},
+		{
+			"file" : "D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-install.rule"
+		},
+		{
+			"file" : "D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-mkdir.rule"
+		},
+		{
+			"file" : "D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-patch.rule"
+		},
+		{
+			"file" : "D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"l5_e1_sol_2"
+		],
+		"name" : "l5_e1_sol_2"
+	}
+}

@@ -1,0 +1,13 @@
+# Target labels
+ l5_e1_sol_2
+# Source files and their labels
+D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/CMakeFiles/l5_e1_sol_2
+D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/CMakeFiles/l5_e1_sol_2.rule
+D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/CMakeFiles/l5_e1_sol_2-complete.rule
+D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-build.rule
+D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-configure.rule
+D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-download.rule
+D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-install.rule
+D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-mkdir.rule
+D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-patch.rule
+D:/nRF_Projects/l5_e1_sol_2/build/_sysbuild/sysbuild/images/l5_e1_sol_2-prefix/src/l5_e1_sol_2-stamp/l5_e1_sol_2-update.rule

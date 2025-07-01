@@ -1,0 +1,13 @@
+# Target labels
+ tfm
+# Source files and their labels
+D:/nRF_Projects/l5_e1_sol/build/l5_e1_sol/modules/trusted-firmware-m/CMakeFiles/tfm
+D:/nRF_Projects/l5_e1_sol/build/l5_e1_sol/modules/trusted-firmware-m/CMakeFiles/tfm.rule
+D:/nRF_Projects/l5_e1_sol/build/l5_e1_sol/modules/trusted-firmware-m/CMakeFiles/tfm-complete.rule
+D:/nRF_Projects/l5_e1_sol/build/l5_e1_sol/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-build.rule
+D:/nRF_Projects/l5_e1_sol/build/l5_e1_sol/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-configure.rule
+D:/nRF_Projects/l5_e1_sol/build/l5_e1_sol/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-download.rule
+D:/nRF_Projects/l5_e1_sol/build/l5_e1_sol/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-install.rule
+D:/nRF_Projects/l5_e1_sol/build/l5_e1_sol/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-mkdir.rule
+D:/nRF_Projects/l5_e1_sol/build/l5_e1_sol/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-patch.rule
+D:/nRF_Projects/l5_e1_sol/build/l5_e1_sol/modules/trusted-firmware-m/tfm-prefix/src/tfm-stamp/tfm-update.rule

@@ -1,0 +1,7 @@
+default: l5_e1_sol
+build_dir: D:/nRF_Projects/l5_e1_sol/build
+domains:
+  - name: l5_e1_sol
+    build_dir: D:/nRF_Projects/l5_e1_sol/build/l5_e1_sol
+flash_order:
+  - l5_e1_sol
